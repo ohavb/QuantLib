@@ -2,7 +2,7 @@ name: Check doc generation
 on: [push, pull_request]
 jobs:
   docs:
-    runs-on: macos-11
+    runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
     - name: Setup
@@ -13,8 +13,6 @@ jobs:
         ./configure
     - name: Doxygen version
       run: |
-        brew list doxygen
-        which doxygen
         doxygen --version
     - name: Check
       run: |
