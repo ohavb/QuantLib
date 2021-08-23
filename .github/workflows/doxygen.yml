@@ -12,6 +12,8 @@ jobs:
         ./configure
     - name: Doxygen version
       run: |
+        brew list doxygen
+        which doxygen
         doxygen --version
     - name: Check
       run: |
