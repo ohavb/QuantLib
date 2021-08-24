@@ -916,6 +916,7 @@ set(QuantLib_SRC
     utilities/dataparsers.cpp
     utilities/tracing.cpp
     version.cpp
+    webAPI.cpp
 )
 
 # hpp files, this list is maintained manually
@@ -2295,6 +2296,7 @@ set(QuantLib_HDR
     utilities/vectors.hpp
     version.hpp
     volatilitymodel.hpp
+    json.hpp
 )
 
 get_quantlib_library_name(QL_OUTPUT_NAME)
