@@ -931,7 +931,7 @@ set(QuantLib_HDR
     cashflows/capflooredinflationcoupon.hpp
     cashflows/cashflows.hpp
     cashflows/cashflowvectors.hpp
-    cashflows/cmscoupon.hpp
+    cashflows/cmscoupon.h
     cashflows/conundrumpricer.hpp
     cashflows/coupon.hpp
     cashflows/couponpricer.hpp
